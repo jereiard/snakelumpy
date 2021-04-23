@@ -3,3 +3,4 @@ called/
 resources/
 bams/
 logs/
+.snakemake/
