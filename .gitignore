@@ -1,6 +1,6 @@
-/data
 called/
 resources/
 bams/
 logs/
 .snakemake/
+data@
