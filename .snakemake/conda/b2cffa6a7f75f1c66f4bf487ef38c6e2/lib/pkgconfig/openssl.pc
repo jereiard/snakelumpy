@@ -1,9 +1,0 @@
-prefix=/home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/b2cffa6a7f75f1c66f4bf487ef38c6e2
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
-
-Name: OpenSSL
-Description: Secure Sockets Layer and cryptography libraries and tools
-Version: 1.1.1k
-Requires: libssl libcrypto

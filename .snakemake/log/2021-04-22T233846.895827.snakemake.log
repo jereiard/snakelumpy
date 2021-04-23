@@ -1,7 +1,0 @@
-Workflow defines that rule get_genome is eligible for caching between workflows (use the --cache argument to enable this).
-Workflow defines that rule bwamem2_index is eligible for caching between workflows (use the --cache argument to enable this).
-Building DAG of jobs...
-MissingInputException in line 129 of /home/HDD1/jangjoowon/src/lumpy/Snakefile:
-Missing input files for rule lumpy:
-bans/BH12-1545_1.discordants.bam
-bams/BH12-1545_1.bam
