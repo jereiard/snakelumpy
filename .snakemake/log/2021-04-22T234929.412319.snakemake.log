@@ -1,0 +1,5 @@
+Workflow defines that rule get_genome is eligible for caching between workflows (use the --cache argument to enable this).
+Workflow defines that rule bwamem2_index is eligible for caching between workflows (use the --cache argument to enable this).
+Building DAG of jobs...
+WorkflowError in line 71 of /home/HDD1/jangjoowon/src/lumpy/Snakefile:
+Cannot combine named input file with unpack()

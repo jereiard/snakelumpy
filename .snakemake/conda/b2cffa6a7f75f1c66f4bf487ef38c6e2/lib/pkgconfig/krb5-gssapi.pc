@@ -1,0 +1,10 @@
+prefix=/home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/b2cffa6a7f75f1c66f4bf487ef38c6e2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.17.2
+Requires: mit-krb5-gssapi

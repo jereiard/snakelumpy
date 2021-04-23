@@ -1,0 +1,13 @@
+prefix=/home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/b72090bd06e0bea22c0247b346402d7c
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

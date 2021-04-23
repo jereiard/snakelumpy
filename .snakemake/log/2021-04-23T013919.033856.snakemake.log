@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	lumpy
+	2
+Select jobs to execute...
+
+[Fri Apr 23 01:39:19 2021]
+rule lumpy:
+    input: bams/BH12-1573_1.bam, bams/BH12-1573_1.splitter.bam, bams/BH12-1573_1.discordants.bam
+    output: called/BH12-1573_1.vcf
+    log: logs/lumpy_BH12-1573_1.log
+    jobid: 9
+    wildcards: sample=BH12-1573, unit=1
+
+[Fri Apr 23 01:39:50 2021]
+Finished job 9.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Apr 23 01:39:50 2021]
+localrule all:
+    input: called/BH12-1545_1.vcf, called/BH12-1545_1.vcf, called/BH12-1545_1.vcf, called/BH12-1545_1.vcf, called/BH12-1545_1.vcf, called/BH12-1573_1.vcf, called/BH12-1573_1.vcf, called/BH12-1573_1.vcf, called/BH12-1573_1.vcf, called/BH12-1573_1.vcf, called/BH13-230_1.vcf, called/BH13-230_1.vcf, called/BH13-230_1.vcf, called/BH13-230_1.vcf, called/BH13-230_1.vcf, called/BH13-1741_1.vcf, called/BH13-1741_1.vcf, called/BH13-1741_1.vcf, called/BH13-1741_1.vcf, called/BH13-1741_1.vcf, called/BH16-319_1.vcf, called/BH16-319_1.vcf, called/BH16-319_1.vcf, called/BH16-319_1.vcf, called/BH16-319_1.vcf
+    jobid: 0
+
+[Fri Apr 23 01:39:50 2021]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/HDD1/jangjoowon/src/lumpy/.snakemake/log/2021-04-23T013919.033856.snakemake.log

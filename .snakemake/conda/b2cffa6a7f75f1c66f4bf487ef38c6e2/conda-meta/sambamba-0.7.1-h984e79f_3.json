@@ -1,0 +1,50 @@
+{
+  "build": "h984e79f_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "htslib >=1.10.2,<1.11.0a0",
+    "ldc >=1.20.0,<1.21.0a0",
+    "libgcc-ng >=7.5.0",
+    "xz >=5.2.5,<5.3.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/HDD1/jangjoowon/anaconda3/pkgs/sambamba-0.7.1-h984e79f_3",
+  "features": "",
+  "files": [
+    "bin/sambamba"
+  ],
+  "fn": "sambamba-0.7.1-h984e79f_3.tar.bz2",
+  "license": "GPLv2",
+  "link": {
+    "source": "/home/HDD1/jangjoowon/anaconda3/pkgs/sambamba-0.7.1-h984e79f_3",
+    "type": 1
+  },
+  "md5": "8bb671f81a1dd11dbf954e91bff148a7",
+  "name": "sambamba",
+  "package_tarball_full_path": "/home/HDD1/jangjoowon/anaconda3/pkgs/sambamba-0.7.1-h984e79f_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sambamba",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sambamba_1593780426139/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "e4e70ec52761ad8c87b6f38fc3dfac84c2d289aa381c1a65f0672c9bc6845b51",
+        "sha256_in_prefix": "9f10c565f476af52bc6ac7036780432790d0b167f74f5bfa3e8e1d093456c10d",
+        "size_in_bytes": 16483240
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sambamba==0.7.1",
+  "sha256": "a1c7c81b301b0ea9e01ab94e7305fd404929a98ec8becce903ff24bae6ae36d7",
+  "size": 3410361,
+  "subdir": "linux-64",
+  "timestamp": 1593780834505,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/sambamba-0.7.1-h984e79f_3.tar.bz2",
+  "version": "0.7.1"
+}

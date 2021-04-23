@@ -1,0 +1,10 @@
+Workflow defines that rule get_genome is eligible for caching between workflows (use the --cache argument to enable this).
+Workflow defines that rule bwamem2_index is eligible for caching between workflows (use the --cache argument to enable this).
+Building DAG of jobs...
+InputFunctionException in line 70 of /home/HDD1/jangjoowon/src/lumpy/Snakefile:
+Error:
+  AttributeError: 'Wildcards' object has no attribute 'unit'
+Wildcards:
+  sample=BH12-1545
+Traceback:
+  File "/home/HDD1/jangjoowon/src/lumpy/Snakefile", line 36, in get_fastq

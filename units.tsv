@@ -1,0 +1,6 @@
+sample	unit	platform	fq1	fq2
+BH12-1545	1	ILLUMINA	data/BH12_1545_R1.fastq.gz	data/BH12_1545_R2.fastq.gz
+BH13-1741	1	ILLUMINA	data/BH13_1741_R1.fastq.gz	data/BH13_1741_R2.fastq.gz
+BH12-1573	1	ILLUMINA	data/BH12_1573_R1.fastq.gz	data/BH12_1573_R2.fastq.gz
+BH13-230	1	ILLUMINA	data/BH13_230_R1.fastq.gz	data/BH13_230_R2.fastq.gz
+BH16-319	1	ILLUMINA	data/BH16_319_R1.fastq.gz	data/BH16_319_R2.fastq.gz

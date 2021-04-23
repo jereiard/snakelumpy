@@ -1,0 +1,14 @@
+prefix=/home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/b72090bd06e0bea22c0247b346402d7c
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+KDB5_DB_LIB=
+
+Name: kdb
+Description: Kerberos database access libraries
+Version: 1.17.2
+Requires.private: mit-krb5-gssapi mit-krb5 gssrpc
+Cflags: -I${includedir}
+Libs: -L${libdir} -lkdb5
+Libs.private: ${KDB5_DB_LIB}

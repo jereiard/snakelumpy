@@ -1,0 +1,12 @@
+prefix=/home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/b72090bd06e0bea22c0247b346402d7c
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: gssrpc
+Description: GSSAPI RPC implementation
+Version: 1.17.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgssrpc
+Requires.private: mit-krb5-gssapi

@@ -1,0 +1,11 @@
+==> 2021-04-22 23:53:23 <==
+# cmd: /home/HDD1/jangjoowon/anaconda3/condabin/mamba create --quiet --file /home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/0f26fa6777360d61ab1e8cfd6065adc5.yaml --prefix /home/HDD1/jangjoowon/src/lumpy/.snakemake/conda/0f26fa6777360d61ab1e8cfd6065adc5
+# conda version: 4.10.0
++bioconda/linux-64::bwa-mem2-2.0-he513fc3_1
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-1_gnu
++conda-forge/linux-64::libgcc-ng-9.3.0-h2828fa1_18
++conda-forge/linux-64::libgomp-9.3.0-h2828fa1_18
++conda-forge/linux-64::libstdcxx-ng-9.3.0-h6de172a_18
++conda-forge/linux-64::zlib-1.2.11-h516909a_1010
+# update specs: ['bwa-mem2==2.0']

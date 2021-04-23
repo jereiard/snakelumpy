@@ -1,0 +1,5 @@
+Workflow defines that rule get_genome is eligible for caching between workflows (use the --cache argument to enable this).
+Workflow defines that rule bwamem2_index is eligible for caching between workflows (use the --cache argument to enable this).
+SyntaxError:
+Not all output, log and benchmark files of rule bwamem2_mem_samblaster contain the same wildcards. This is crucial though, in order to avoid that two or more jobs write to the same file.
+  File "/home/HDD1/jangjoowon/src/lumpy/Snakefile", line 83, in <module>
